@@ -1,0 +1,17 @@
+{
+  "name": "concours-scraper-api",
+  "version": "1.0.0",
+  "description": "API de scraping automatique des jeux concours français et internationaux",
+  "scripts": {
+    "dev": "vercel dev",
+    "scrape": "node scripts/scrape.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
